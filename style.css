@@ -1,0 +1,37 @@
+.body{
+    background-color: #070708; 
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav, a{
+    color:rgb(7, 7, 7) ;
+    background-color: #9696a3;;
+    flex: 1;
+    font-size:x-large;
+}
+
+.active, header{
+    text-align: center;
+    color: rgb(5, 5, 5);
+    background-color: #d5d5e4;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.content, article {
+flex: 4;
+min-height: 60vh;
+}
+
+.header, footer {
+ background: #9696a3;
+ height: 20vh;
+}
+header, footer, article, nav {
+padding: 25px;
+}
